@@ -66,29 +66,25 @@ We welcome contributions to Eco-Travel Chronicles! Here's how you can help:
 
 Fork the repository to your own GitHub account.
 
-Clone the forked repository to your local machine:
-
+1. Clone the forked repository to your local machine:
  ```bash
 git clone https://github.com/your-username/eco-travel-chronicles.git
-Create a new branch:
 
+2. Create a new branch:
  ```bash
 git checkout -b feature/your-feature-name
-Make your changes, then commit them:
 
+3. Make your changes, then commit them:
  ```bash
 git add .
 git commit -m "Description of the changes you made"
-Push your changes to your forked repository:
 
+4. Push your changes to your forked repository:
  ```bash
 git push origin feature/your-feature-name
-Submit a pull request to the original repository.
 
+5. Submit a pull request to the original repository.
 
-
-### Contributing
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Thank you for checking out Eco-Travel Chronicles. We hope it inspires you to explore the world responsibly and with a sustainable mindset!
 
