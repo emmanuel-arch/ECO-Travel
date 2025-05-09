@@ -1,23 +1,13 @@
 # ECO-Travel
 
 **Eco-Travel Chronicles** is a website dedicated to promoting sustainable and eco-friendly travel. The site features beautiful travel guides, destinations, galleries, and more, all focused on preserving nature and supporting eco-conscious travel practices.
-
-## Table of Contents
-
-- [Description](#description)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Images](#images)
+---
 
 ## Description
 
 Eco-Travel Chronicles is a platform where nature lovers and eco-conscious travelers can find inspiration, tips, and recommendations for sustainable travel. From guides to beautiful, eco-friendly destinations, to photo galleries capturing the magic of responsible travel, this site aims to raise awareness about eco-friendly practices in the travel industry.
 
-![Eco-Travel Image](images/your-image-file.jpg)  <!-- Add image here from images folder -->
+![Eco-Travel Image](images/green2.jpg)  <!-- Add image here from images folder -->
 
 ## Features
 
@@ -27,7 +17,7 @@ Eco-Travel Chronicles is a platform where nature lovers and eco-conscious travel
 - **Social Media Integration**: Links to Eco-Travel Chronicles' social media platforms.
 - **Responsive Design**: Mobile and tablet-friendly for on-the-go travel enthusiasts.
   
-![Travel Guides](images/your-image-file.jpg)  <!-- Add image here from images folder -->
+![Travel Guides](images/mountain2.jpg)  <!-- Add image here from images folder -->
 
 ## Technologies Used
 
@@ -38,7 +28,7 @@ Eco-Travel Chronicles is a platform where nature lovers and eco-conscious travel
 - **Font Awesome**: For social media icons and other SVG-based icons.
 - **Google Fonts**: Raleway font for clean and modern typography.
 
-![Technologies Used](images/your-image-file.jpg)  <!-- Add image here from images folder -->
+![Technologies Used](images/bus.jpg)  <!-- Add image here from images folder -->
 
 ## Installation
 
