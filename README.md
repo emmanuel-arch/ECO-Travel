@@ -1,6 +1,6 @@
 # ECO-Travel
 
-**Eco-Travel Chronicles** is a website dedicated to promoting sustainable and eco-friendly travel. The site features beautiful travel guides, destinations, galleries, and more, all focused on preserving nature and supporting eco-conscious travel practices.
+Eco-Travel Chronicles is a website dedicated to promoting sustainable and eco-friendly travel. The site features beautiful travel guides, destinations, galleries, and more, all focused on preserving nature and supporting eco-conscious travel practices.
 
 
 ## Description
