@@ -31,6 +31,7 @@ $(document).ready(function () {
 });
 
 // Carousel
+// Loop through eco-travel sliders with descriptions
 var cont = 0;
 function loopSlider() {
   var xx = setInterval(function () {
@@ -45,7 +46,6 @@ function loopSlider() {
         $("#sButton3").removeClass("bg-companySecondary");
         $("#sButton3").addClass("bg-white");
         cont = 1;
-
         break;
       }
       case 1:
@@ -59,7 +59,6 @@ function loopSlider() {
           $("#sButton3").removeClass("bg-white");
           $("#sButton3").addClass("bg-companySecondary");
           cont = 2;
-
           break;
         }
       case 2:
@@ -73,10 +72,8 @@ function loopSlider() {
           $("#sButton3").removeClass("bg-companySecondary");
           $("#sButton3").addClass("bg-white");
           cont = 0;
-
           break;
         }
-
     }
   }, 4000);
 }
@@ -94,5 +91,5 @@ $(window).ready(function () {
   $("#sButton3").addClass("bg-white");
 
   loopSlider();
-
 });
+

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Eco-Travel Chronicles</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- Raleway Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+
+<body class="font-raleway select-none">
+
+    <!-- Header Section -->
+    <header id="header" class="sticky bg-white/90 left-0 top-0 z-50 w-full backdrop-blur">
+        <div class="mx-auto h-20 md:h-16 max-w-7xl px-8 md:px-6">
+            <div class="relative flex h-full items-center justify-between brder-b border-slate-500/10">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <!-- Logo img -->
+                    <a href="index.html" class="flex items-center">
+                        <img src="images/logo.png" alt="logo" class="w-8 h-8 md:w-12 md:h-12 max-w-full"> <!-- Adjust size here -->
+                    </a>
+                    
+                    <!-- Logo text -->
+                    <span class="text-2xl font-bold text-white">ECO-TRAVEL <span class="text-yellow-400">CHRONICLES</span></span>
+                </div>
+
+                <!-- Main nav -->
+                <div>
+                    <!-- Nav items -->
+                    <ul x-transition
+                        class="hidden md:flex space-x-6 text-companyPrimary font-bold text-sm uppercase relative">
+                        <li class="text-companySecondary">
+                            <a href="Homepage.html">Home</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="About.html">About</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="TravelGuides.html">Travel Guides</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="Gallery.html">Gallery</a>
+                        </li>
+                        <li class="hover:text-companySecondary">
+                            <a href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hamburger Icon -->
+                <button id="hamburger"
+                    class="block cursor-pointer relative w-8 h-4 md:hidden focus:outline-none outline-none transition-all">
+                    <span class="absolute hamburger-top w-6 h-0.5 top-0 left-0 bg-companySecondary rounded-full"></span>
+                    <span
+                        class="absolute hamburger-middle w-6 h-0.5 top-0 left-0 bg-companySecondary rounded-full"></span>
+                    <span
+                        class="absolute hamburger-bottom w-6 h-0.5 top-0 left-0 bg-companySecondary rounded-full"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <ul id="menu"
+                class="absolute flex-col items-end hidden self-end px-10 py-8 space-y-6 font-bold bg-white/90 text-companyPrimary sm:w-auto sm:self-center left-0 right-0 drop-shadow-md border-t border-gray-300">
+                <li>
+                    <a href="index.html" class="text-companySecondary">Home</a>
+                </li>
+                <li>
+                    <a href="about.html" class="hover:text-companySecondary">About</a>
+                </li>
+                <li>
+                    <a href="services.html" class="hover:text-companySecondary">Services</a>
+                </li>
+                <li>
+                    <a href="whyus.html" class="hover:text-companySecondary">Why Us?</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="hover:text-companySecondary">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Page banner -->
+    <div class="w-full h-[329px] flex items-center justify-center bg-companyPrimary bg-cover bg-center"
+        style="background-image: url('images/sustainability.jpeg'); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);">
+        <div class=" flex flex-col items-center justify-center my-8">
+            <h1
+                class="text-companySecondary px-6 text-4xl font-bold leading-snug sm:text-[32px] lg:text-[42px] xl:text-[44px]">
+                About Us
+            </h1>
+            <p class="text-white mb-8 max-w-[480px] md:text-lg font-semibold">Empowering Sustainable Travel</p>
+        </div>
+    </div>
+    <!-- End page banner -->
+
+    <!-- Our Story Section -->
+    <section id="about-us" class="py-8 md:py-16 bg-slate-100">
+        <div class="mx-auto max-w-7xl px-8 md:px-6">
+            <div class="text-center">
+                <h2 class="text-2xl font-bold text-slate-700 sm:text-3xl">Our Mission</h2>
+                <p class="text-md text-slate-500 mt-2">At Eco-Travel Chronicles, our mission is simple: to inspire and guide eco-conscious travelers to explore the world sustainably. We believe in preserving the planet’s natural beauty while enjoying the adventures that it offers. Our team is committed to providing the best eco-friendly travel tips, destination guides, and sustainable travel practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Vision Section -->
+    <section id="vision" class="py-8 md:py-16">
+        <div class="mx-auto max-w-7xl px-8 md:px-6 text-center">
+            <h2 class="text-2xl font-bold text-slate-700 sm:text-3xl">Our Vision</h2>
+            <p class="text-md text-slate-500 mt-2">Our vision is to create a world where travel and sustainability go hand in hand. We aim to encourage travelers to minimize their environmental impact by choosing eco-friendly accommodations, transportation, and activities. By doing so, we hope to contribute to the protection of the environment while promoting awareness about the beauty of nature and the importance of preserving it for future generations.</p>
+        </div>
+    </section>
+
+    <!-- Our Values Section -->
+    <section id="values" class="py-8 md:py-16 bg-slate-100">
+        <div class="mx-auto max-w-7xl px-8 md:px-6 text-center">
+            <h2 class="text-2xl font-bold text-slate-700 sm:text-3xl">Our Core Values</h2>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold text-slate-600">Sustainability First</h3>
+                <p class="text-md text-slate-500 mt-2">We prioritize sustainable practices in all aspects of our work. From promoting eco-friendly accommodations to advising on sustainable travel choices, we ensure that every step taken on our journeys contributes to environmental preservation.</p>
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold text-slate-600">Respect for Local Cultures</h3>
+                <p class="text-md text-slate-500 mt-2">We respect the cultures and traditions of the destinations we visit. Our goal is to promote responsible tourism that benefits local communities, creates jobs, and helps preserve cultural heritage.</p>
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold text-slate-600">Education and Awareness</h3>
+                <p class="text-md text-slate-500 mt-2">We believe in the power of education to change the world. Through our platform, we provide travelers with the knowledge and resources they need to make informed, eco-friendly decisions when planning their trips.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <!-- Footer Section -->
+    <footer id="footer" class="flex justify-center w-full bg-companyPrimary px-6 py-6">
+        <div class="w-full mt-12 mx-auto max-w-7xl px-8 md:px-6">
+            <div class="flex flex-col md:flex-row text-center md:text-left">
+                <!-- Footer intro -->
+                <div
+                    class="flex flex-col items-center md:items-start w-full md:w-2/5 border-b pb-8 md:pb-0 md:border-none border-gray-600">
+                    <a href="index.html#" class="max-w-24 pl-4 md:pl-0">
+                        <img src="images/itothyalogo.png" alt="">
+                    </a>
+                    <p class="mt-2 text-2xl font-light text-blue-200">To Travel is to Explore</p>
+                    <span class="hidden md:block my-14"><span />
+                </div>
+
+                <!-- Important Links -->
+                <div class="flex flex-col w-full md:w-1/5 md:ml-8">
+                    <p class="mt-6 mb-2 md:mt-0 text-md text-gray-200 uppercase font-bold">Social Media Platforms</p>
+                    <div class="w-auto mt-2">
+                        <a href="about.html"
+                            class="text-sm font-light text-gray-400 hover:text-companySecondary"></a>
+                            <a href="https://facebook.com" class="text-white hover:text-yellow-400">
+                              <i class="fab fa-facebook"></i> <!-- Add Font Awesome or any other icon library -->
+                          </a>
+                          <a href="https://instagram.com" class="text-white hover:text-yellow-400">
+                              <i class="fab fa-instagram"></i>
+                          </a>
+                          <a href="https://twitter.com" class="text-white hover:text-yellow-400">
+                              <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="https://linkedin.com" class="text-white hover:text-yellow-400">
+                              <i class="fab fa-linkedin"></i>
+                          </a>
+                    </div>
+                    
+                </div>
+
+                <!-- Contact us footer -->
+                <div class="flex flex-col w-full md:w-1/5 md:ml-8 mt-8 md:mt-0">
+                  <p class="text-lg font-semibold text-white uppercase">Contact Us</p>
+                  <div class="mt-4">
+                      <p class="text-sm font-light text-gray-200">
+                        <span class="font-semibold">Office: </span>123 Eco-Travel Lane, Suite 450, San Francisco, California, USA
+                      </p>
+                  </div>
+                  <div class="mt-2">
+                      <p class="text-sm font-light text-gray-200">
+                          <span class="font-semibold">Phone: </span>+1 415-555-7890
+                      </p>
+                      <p class="text-sm font-light text-gray-200">
+                          <span class="font-semibold">Email: </span>info@ecotravelchronicles.com
+                      </p>
+                  </div>
+              </div>
+            </div>
+            <!-- Social links -->
+            <div
+                class="mt-6 flex flex-col md:flex-row items-center justify-between pt-4 w-full border-t border-gray-600">
+                
+                <!-- Footer sign-off -->
+                <div class="text-center text-gray-200 mt-4 md:mt-0">
+                  <p class="text-sm font-light">
+                      Copyright &copy; <script>document.write(new Date().getFullYear());</script> 
+                      <span class="text-yellow-400">Eco-Travel Chronicles</span>. All rights reserved.
+                  </p>
+              </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Main scripts -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+<script src="js/main.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    companyPrimary: '#1E3A8A',
+                    companySecondary: '#FBBF24',
+                }
+            }
+        }
+    }
+</script>

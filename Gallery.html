@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Eco-Travel Chronicles</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- Raleway Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+
+<body class="font-raleway select-none">
+
+    <!-- Header Section -->
+    <header id="header" class="sticky bg-white/90 left-0 top-0 z-50 w-full backdrop-blur">
+        <div class="mx-auto h-20 md:h-16 max-w-7xl px-8 md:px-6">
+            <div class="relative flex h-full items-center justify-between border-b border-slate-500/10">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <a href="index.html" class="flex items-center">
+                        <img src="images/logo.png" alt="Eco-Travel Chronicles Logo" class="w-12 h-12 md:w-16 md:h-16 max-w-full">
+                    </a>
+                    <span class="text-2xl font-bold text-white">ECO-TRAVEL <span class="text-yellow-400">CHRONICLES</span></span>
+                </div>
+
+                <!-- Main nav -->
+                <div>
+                    <ul class="hidden md:flex space-x-6 text-companyPrimary font-bold text-sm uppercase">
+                        <li><a href="Homepage.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="TravelGuides.html">Travel Guides</a></li>
+                        <li><a href="Gallery.html" class="text-yellow-400">Gallery</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <div class="w-full h-[329px] flex items-center justify-center bg-cover bg-center" style="background-image: url('images/eco.jpg'); box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);">
+        <div class="flex flex-col items-center justify-center my-8">
+            <h1 class="text-white text-4xl font-bold leading-snug sm:text-[32px] lg:text-[42px] xl:text-[44px]">
+                Gallery
+            </h1>
+            <p class="text-white mb-8 max-w-[480px] md:text-lg font-semibold">A Visual Journey of Eco-Friendly Travel</p>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-8 md:py-16 bg-gray-100">
+        <div class="mx-auto max-w-7xl px-8 md:px-6">
+            <!-- Gallery Intro -->
+            <div class="mb-10 text-center">
+                <h1 class="text-3xl font-bold text-slate-700 sm:text-4xl">Eco-Travel Chronicles Gallery</h1>
+                <p class="mx-auto w-full md:w-2/3 text-lg text-slate-500 mt-4">
+                    Browse through stunning photos from our eco-friendly travel experiences across the globe. From pristine beaches to sustainable urban experiences, our gallery captures the beauty of traveling with respect for nature.
+                </p>
+            </div>
+
+            <!-- Gallery Images -->
+            <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-12">
+                <!-- Image 1 -->
+                <div class="group flex flex-col items-center rounded-xl bg-white p-6 shadow-lg hover:bg-companyPrimary hover:scale-105">
+                    <img src="images/beach1.jpg" alt="Gallery 1" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h4 class="text-lg font-semibold text-slate-600 group-hover:text-white">Sustainable Beaches</h4>
+                    <p class="text-center text-sm text-slate-500 group-hover:text-blue-200">
+                        Eco-friendly beach destinations that focus on conservation and sustainability while enjoying the natural beauty.
+                    </p>
+                </div>
+
+                <!-- Image 2 -->
+                <div class="group flex flex-col items-center rounded-xl bg-white p-6 shadow-lg hover:bg-companyPrimary hover:scale-105">
+                    <img src="images/mountain.jpg" alt="Gallery 2" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h4 class="text-lg font-semibold text-slate-600 group-hover:text-white">Mountain Adventures</h4>
+                    <p class="text-center text-sm text-slate-500 group-hover:text-blue-200">
+                        Stunning views from eco-conscious mountain destinations offering sustainable trekking experiences.
+                    </p>
+                </div>
+
+                <!-- Image 3 -->
+                <div class="group flex flex-col items-center rounded-xl bg-white p-6 shadow-lg hover:bg-companyPrimary hover:scale-105">
+                    <img src="images/bus.jpg" alt="Gallery 3" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <h4 class="text-lg font-semibold text-slate-600 group-hover:text-white">Urban Sustainability</h4>
+                    <p class="text-center text-sm text-slate-500 group-hover:text-blue-200">
+                        Explore eco-friendly cities that are implementing green architecture, sustainable public transportation, and environmental innovations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="flex justify-center w-full bg-companyPrimary px-6 py-6">
+        <div class="w-full mt-12 mx-auto max-w-7xl px-8 md:px-6">
+            <div class="flex flex-col md:flex-row text-center md:text-left">
+                <!-- Footer intro -->
+                <div class="flex flex-col items-center md:items-start w-full md:w-2/5 border-b pb-8 md:pb-0 md:border-none border-gray-600">
+                    <a href="index.html" class="max-w-24 pl-4 md:pl-0">
+                        <img src="images/logo.png" alt="Eco-Travel Chronicles Logo">
+                    </a>
+                    <p class="mt-2 text-2xl font-light text-blue-200">To Travel is to Explore</p>
+                </div>
+
+                <!-- Important Links -->
+                <div class="flex flex-col w-full md:w-1/5 md:ml-8">
+                    <p class="mt-6 mb-2 md:mt-0 text-md text-gray-200 uppercase font-bold">Social Media Platforms</p>
+                    <div class="w-auto mt-2">
+                        <a href="https://facebook.com" class="text-white hover:text-yellow-400"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com" class="text-white hover:text-yellow-400"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com" class="text-white hover:text-yellow-400"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com" class="text-white hover:text-yellow-400"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact us footer -->
+                <div class="flex flex-col w-full md:w-1/5 md:ml-8 mt-8 md:mt-0">
+                    <p class="text-lg font-semibold text-white uppercase">Contact Us</p>
+                    <div class="mt-4">
+                        <p class="text-sm font-light text-gray-200">
+                            <span class="font-semibold">Office: </span>123 Eco-Travel Lane, Suite 450, San Francisco, California, USA
+                        </p>
+                    </div>
+                    <div class="mt-2">
+                        <p class="text-sm font-light text-gray-200">
+                            <span class="font-semibold">Phone: </span>+1 415-555-7890
+                        </p>
+                        <p class="text-sm font-light text-gray-200">
+                            <span class="font-semibold">Email: </span>info@ecotravelchronicles.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer sign-off -->
+            <div class="text-center text-gray-200 mt-4 md:mt-0">
+                <p class="text-sm font-light">
+                    Copyright &copy; <script>document.write(new Date().getFullYear());</script>
+                    <span class="text-yellow-400">Eco-Travel Chronicles</span>. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main scripts -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

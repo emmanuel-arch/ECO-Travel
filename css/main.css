@@ -73,6 +73,40 @@ body {
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
 */
+/* Header Section with gradient background */
+#header {
+  background: linear-gradient(90deg, #6a0dad, #2a3d69); /* Gradient from purple to dark blue */
+  color: white; /* Ensure all text is white */
+}
+
+/* Styling for logo and name */
+#header .text-companyPrimary {
+  color: white; /* Make the text color white for the name */
+}
+
+#header .text-companySecondary {
+  color: rgb(254, 185, 70); /* Color of the secondary part of the name */
+}
+
+/* Hamburger Icon Colors */
+#hamburger span {
+  background-color: rgb(254, 185, 70); /* Yellow color for the hamburger icon */
+}
+
+/* Mobile Menu */
+#menu {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+}
+
+/* Main Navigation Links */
+#header .nav-items a:hover {
+  color: rgb(254, 185, 70); /* Add hover effect to make the links yellow when hovered */
+}
+
+/* Optional: Add extra shadow to the header for more contrast */
+#header {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 hr {
   height: 0;
